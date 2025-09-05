@@ -32,11 +32,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         return UINavigationController(rootViewController: homeVC)
     }
     
+    func createCollectionNC() -> UINavigationController {
+        let collectionVC = CollectionVC()
+        collectionVC.title = "Collection"
+        collectionVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+        
+        return UINavigationController(rootViewController: collectionVC)
+    }
+    
     func createTabBar() -> UITabBarController {
         let tabBar = UITabBarController()
         UITabBar.appearance().tintColor = .systemGreen
         UITabBar.appearance().backgroundColor = .systemBackground
-        tabBar.viewControllers = [createHomeNC()]
+        tabBar.viewControllers = [createHomeNC(), createCollectionNC()]
         
         return tabBar
     }

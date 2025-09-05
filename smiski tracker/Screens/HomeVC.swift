@@ -15,17 +15,22 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
-
         // Do any additional setup after loading the view.
         
-        imageView.frame = CGRect(x: 50, y: 100, width: 400, height: 400)
-        view.addSubview(imageView)
-        imageView.animate(withGIFNamed: "smiski_main")
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: animated)
+        displayDefaultAnimation()
     }
-
+    
+    func displayDefaultAnimation() {
+        let side: CGFloat = 300
+        let x: CGFloat = (view.bounds.width - side) / 2
+        let y: CGFloat = (view.bounds.height - side) / 2
+        imageView.frame = CGRect(x: x, y: y, width: side, height: side)
+        view.addSubview(imageView)
+        imageView.animate(withGIFNamed: "smiski_main")
+    }
 }
