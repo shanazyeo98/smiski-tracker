@@ -22,6 +22,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.makeKeyAndVisible()
         
         configureNavigationBar()
+        
+        DataStore.shared.load()
     }
     
     func createHomeNC() -> UINavigationController {

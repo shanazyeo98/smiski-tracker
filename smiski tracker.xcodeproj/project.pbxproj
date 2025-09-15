@@ -11,7 +11,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E53A7EE2E6974390093FA04 /* smiski tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smiski tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E53A7EE2E6974390093FA04 /* smiski tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "smiski tracker.app"; path = "/Users/shanazyeo/Swift/smiski tracker/build/Debug-iphoneos/smiski tracker.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -51,16 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				6E53A7F02E6974390093FA04 /* smiski tracker */,
-				6E53A7EF2E6974390093FA04 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		6E53A7EF2E6974390093FA04 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6E53A7EE2E6974390093FA04 /* smiski tracker.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +108,7 @@
 				6E53A8522E698F5D0093FA04 /* XCRemoteSwiftPackageReference "Gifu" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6E53A7EF2E6974390093FA04 /* Products */;
+			productRefGroup = 6E53A7E52E6974390093FA04;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

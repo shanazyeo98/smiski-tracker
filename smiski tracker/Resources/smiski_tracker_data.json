@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Series 1",
+        "items": [
+            { "picture": "series1_1", "owned": false },
+            { "picture": "series1_2", "owned": false },
+            { "picture": "series1_3", "owned": false },
+            { "picture": "series1_4", "owned": false },
+            { "picture": "series1_5", "owned": false },
+            { "picture": "series1_6", "owned": false }
+        ]
+    }
+]
