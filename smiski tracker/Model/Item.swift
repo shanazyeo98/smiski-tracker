@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Item: Codable {
+struct Item: Codable, Hashable {
     var picture: String
     var owned: Bool
 }

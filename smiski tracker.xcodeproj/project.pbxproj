@@ -11,7 +11,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E53A7EE2E6974390093FA04 /* smiski tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "smiski tracker.app"; path = "/Users/shanazyeo/Swift/smiski tracker/build/Debug-iphoneos/smiski tracker.app"; sourceTree = "<absolute>"; };
+		6E41B1482E79A7960092B075 /* smiski tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smiski tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -51,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				6E53A7F02E6974390093FA04 /* smiski tracker */,
+				6E41B1482E79A7960092B075 /* smiski tracker.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,7 +78,7 @@
 				6E53A8532E698F5D0093FA04 /* Gifu */,
 			);
 			productName = "smiski tracker";
-			productReference = 6E53A7EE2E6974390093FA04 /* smiski tracker.app */;
+			productReference = 6E41B1482E79A7960092B075 /* smiski tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
